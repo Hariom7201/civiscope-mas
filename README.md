@@ -1,15 +1,28 @@
 # CIVISCOPE-MAS (Convolve 4.0 | Qdrant MAS Track)
 
-CIVISCOPE-MAS is a Multi-Agent Search + Long-Term Memory system for disaster response and public safety decision support.
-It uses **Qdrant Cloud** as the primary vector search engine for semantic retrieval and persistent memory.
+**CIVISCOPE-MAS** is a Multi-Agent Intelligence System for **disaster response & public safety** that performs:
+- **Semantic evidence retrieval using Qdrant (primary vector DB)**
+- Risk assessment (LOW / MEDIUM / HIGH)
+- Evidence-backed recommendation generation
 
-## Features
-- Semantic Search using Qdrant vectors
-- Long-term memory storage (Qdrant collection)
-- Evidence-based recommendations with traceable retrieval
+This project is built for **Convolve 4.0 – MAS Track (Powered by Qdrant)**.
 
-## Setup
+---
 
-### 1) Install dependencies
-```bash
-pip install -r requirements.txt
+## Key Features
+- Multi-source evidence ingestion (news / social / helpline style signals)
+- Vector search powered by **Qdrant Cloud**
+- Top-k evidence retrieval with similarity scores
+- Risk level + confidence + actionable recommendation
+
+---
+
+## Tech Stack
+- Python 3.10+
+- Qdrant Cloud (Vector Database)
+- SentenceTransformers (embeddings)
+- python-dotenv
+
+---
+
+## Project Structure
